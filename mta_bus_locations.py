@@ -5,6 +5,8 @@ import urllib2
 import json
 import pprint
 
+#usage: python mta_bus_locations.py <MTA_API_KEY> <BUS_LINE>
+
 key = sys.argv[1]
 bus = sys.argv[2] 
 
